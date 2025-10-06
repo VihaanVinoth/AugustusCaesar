@@ -1,0 +1,13 @@
+.hero > img {
+    width: 50%;
+    float: left;
+}
+
+.hero p {
+    text-align: justify;
+}
+
+.hero button {
+    padding: 5px 10px;
+    margin: 0;
+}
