@@ -219,6 +219,10 @@ details {
     border: var(--primary-border);
 }
 
+details h1 {
+    display: inline;
+}
+
 summary:hover {
     cursor: pointer;
 }
