@@ -76,7 +76,7 @@ textarea, select, input, progress {
 /* Headers */
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:'Helvetica Neue', sans-serif, sans-serif;
+    font-family:'Helvetica Neue', sans-serif, sans-serif !important;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h6 {
     font-size: 0.85rem;
 }
 
-/* Buttons, KBD, Code, Marks, Anchors */
+/* Buttons, KBD, Code, Marks, Anchors, HR */
 
 button, a, kbd, code, mark {
     display: inline-block;
@@ -158,6 +158,10 @@ code {
 
 kbd, code {
     font-family: monospace;
+}
+
+i {
+    margin: 0 !important;
 }
 
 /* Blockquote */
@@ -244,7 +248,7 @@ details > summary, details > p {
 header {
     border-bottom: var(--primary-border);
     background: linear-gradient(var(--accent-hover), var(--accent));
-    padding:14px 50px;
+    padding:4px 50px;
     margin: 5px var(--header-margin-dt);
     margin-bottom: var(--header-margin-b);
     margin-top: var(--header-margin-dt);
@@ -310,4 +314,3 @@ nav ul li a:not(li:nth-child(2) a):hover {
     transition: 500ms;
     color: rgb(192, 192, 192);
 }
-

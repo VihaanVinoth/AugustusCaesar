@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,29 +8,56 @@
     <link rel="stylesheet" href="aristotle.css">
     <link rel="stylesheet" href="base.css">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Museum Docs</a></li>
+                <li><a href="museum.html">Museum Docs</a></li>
             </ul>
         </nav>
         <h1>Museum Docs</h1>
         <p>Navigate these pages to explore the virtual museum.</p>
     </header>
     <div class="tc">
-        <ol>
+        <ol class="toc-list" role="list">
+            <h3>Table of Contents</h3>
             <li>
-                <p>Introduction<span class="page">1</span></p>
+                <a href="pages/intro.html">Introduction</a>
+                <span class="page">1</span>
+            </li>
+            <li>
+                <a href="pages/rise-to-power.html">Rise to Power</a>
+                <span class="page">2</span>
                 <ol>
                     <li>
-                        <p>About<span class="page">1.1</span></p>
-                    </li>
-                    <li>
-                        <p>Vert<span class="page">1.2</span></p>
+                        <a href="/pages/rise-to-power.html#reinforcing-justice">Reinforcing Justice</a>
+                        <span class="page">2.1</span>
                     </li>
                 </ol>
+            </li>
+            <li>
+                <a href="pages/reformation-infrastructure.html">Reformation and Infrastructure</a>
+                <span class="page">3</span>
+                <ol>
+                    <li>
+                        <a href="/pages/reformation-infrastructure.html#army">Army</a>
+                        <span class="page">3.1</span>
+                    </li>
+                    <li>
+                        <a href="/pages/reformation-infrastructure.html#administration">Administration</a>
+                        <span class="page">3.2</span>
+                    </li>
+                    <li>
+                        <a href="/pages/reformation-infrastructure.html#moral-legislation">Moral Legislation</a>
+                        <span class="page">3.3</span>
+                    </li>
+                </ol>                
+            </li>
+            <li>
+                <a href="bib.html">Bibliography</a>
+                <span class="page">5</span>
             </li>
         </ol>
     </div>
@@ -39,4 +67,16 @@
         <p>©2025 by Vihaan Vinoth</p>
     </div>
 </body>
+
 </html>
+
+<!-- <ol role="list">
+                    <li>
+                        <a href="#about">About</a>
+                        <span class="page">1.1</span>
+                    </li>
+                    <li>
+                        <a href="#vert">Vert</a>
+                        <span class="page">1.2</span>
+                    </li>
+                </ol> -->
