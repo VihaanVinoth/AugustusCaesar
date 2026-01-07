@@ -22,7 +22,7 @@ As I said above, this was made merely as a school project. However, this showcas
 Nothing much - I shook this up with some HTML & CSS, and some extensive research - and voila! I crafted this website.
 
 # How to visit project?
-You can visit the project by clicking on (this link)[https://acmuseum.netlify.app].
+You can visit the project by clicking on [this link](https://acmuseum.netlify.app).
 
 Additionally, you can ```git clone``` this project by doing the following:
 
